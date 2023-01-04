@@ -1,0 +1,45 @@
+
+Framework:
+
+behavioral, JavaScript
+presentational, CSS
+structularm HTML
+
+
+
+HTML: its a markuo language that is used to structure the content of documents.
+
+CSS: language that is used to define the layout of a web based app
+
+JavaScript: programming language that is used to define dynamic behaviors for our web based app, e.g add, remove, update content
+
+React: JavaScript framework that simplifies the development of advanced apps
+
+DHIS2 API: API (aoolication programming interface) that is used to access, create and manipulate the data structure within a DHIS2 instance
+
+DHIS2 application development platform: simplifies the development of DHIS2 apps by providing commonly used functionality already implemented so you can limit your development work to the aspects that make you app specific
+
+
+
+
+start med å ha en <body>
+
+uten <head> og <body> vil ikke live server oppdatere ved ctrl + s 
+
+
+
+links: 
+
+contrast checker: helps you check contrast between two colors
+https://webaim.org/resources/contrastchecker/
+
+flexbox froggy: training ground for flexbox
+https://flexboxfroggy.com/
+
+grid garden: training CSS grid
+https://cssgridgarden.com/
+
+CSS referance: has alot and maybe all of the different CSS properties
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference 
+
+

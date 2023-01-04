@@ -1,0 +1,80 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "header" 
+    "content" 
+    "footer";
+}
+
+/*------------------------ navigation -----------------------------*/
+nav {
+    grid-area: "header";
+    display: flex;
+    justify-content:space-between;
+    background-color: #e0e0e0;
+    color: #616161;
+}
+
+nav ul {
+    display: flex;
+    list-style:none;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+}
+nav ul li {
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+nav h1 {
+    letter-spacing: 0.15rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem; /*denne fiksa at den blå fargen ble større*/
+}
+
+nav a:hover {
+    color: white;
+    background-color: teal;
+}
+
+/*------------------------ main --------------------------------------*/
+
+main {
+    grid-area: "content";
+    padding: 1rem;
+}
+
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 0.5rem;
+}
+
+.recipe header {
+    flex-basis: 100%; /*denne sørger for at tittelen alltid er i toppen*/
+    /*background-color: #dbdbdb1e;*/
+}
+
+.recipe .ingredients {
+    background-color: #dbdbdb1e;
+}
+
+.recipe .ingredients li {
+    flex-basis: 50%;
+    background-color: aqua;
+}
+
+.recipe .instructions li {
+    flex-basis: 50%;
+    background-color: aqua;
+}
+
