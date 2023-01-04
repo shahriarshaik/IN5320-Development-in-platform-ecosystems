@@ -43,6 +43,7 @@ nav a {
 nav a:hover {
     color: white;
     background-color: teal;
+    padding: 2rem;
 }
 
 /*------------------------ main --------------------------------------*/
@@ -59,22 +60,65 @@ main {
     padding: 0.5rem;
 }
 
+header h1 {
+    font-size: 1.9rem;
+    margin-left: 1.4rem;
+}
+
 .recipe header {
     flex-basis: 100%; /*denne sørger for at tittelen alltid er i toppen*/
     /*background-color: #dbdbdb1e;*/
 }
 
 .recipe .ingredients {
-    background-color: #dbdbdb1e;
+    max-width: 30rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+.recipe .ingredients h3{
+    font-size: 1.4rem;
+}
+
+.recipe .ingredients:hover {
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .recipe .ingredients li {
     flex-basis: 50%;
-    background-color: aqua;
 }
 
 .recipe .instructions li {
     flex-basis: 50%;
-    background-color: aqua;
 }
 
+.recipe .instructions:hover{
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.instructions h3 {
+    font-size: 1.4rem;
+}
+
+.recipe section li {
+    padding: 0.25rem;
+}
+
+.recipe .instructions {
+    max-width: 45rem;
+    padding-right: 1rem;
+}
+
+article img {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-top: 0.7rem;
+}
+
+footer a {
+    margin-left: 1.8rem;
+    letter-spacing: 0.11rem;
+}
