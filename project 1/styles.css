@@ -18,11 +18,11 @@ nav {
 nav ul {
     display: flex;
     list-style:none;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     letter-spacing: 0.2rem;
 }
 nav ul li {
-    margin: 1rem;
+    margin: 0.5rem;
     font-size: 1.1rem;
 }
 
